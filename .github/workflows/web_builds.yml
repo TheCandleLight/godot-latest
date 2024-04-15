@@ -32,7 +32,7 @@ jobs:
           - name: Template w/o threads (target=template_release, threads=no)
             cache-name: web-nothreads-template
             target: template_release
-            sconsflags: threads=no
+            sconsflags: threads=no disable_3d=yes
             tests: false
             artifact: true
 
